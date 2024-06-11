@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
+  resources :posts
   # we are setting the action of the controller to go to pages folder and find the home html 
-  # substitute the "get" for the url for example (http://localhost:3000/about) the slash then the route 'name'
+  # substitute the "get" for the local url for example (http://localhost:3000/about) the slash then the route 'name'
 
   # get 'pages/home'
   # get 'home', to: 'pages#home'
